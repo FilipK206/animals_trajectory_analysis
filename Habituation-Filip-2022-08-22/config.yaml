@@ -1,0 +1,99 @@
+    # Project definitions (do not edit)
+Task: Habituation
+scorer: Filip
+date: Aug22
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /content/drive/My Drive/Habituation-Filip-2022-08-22
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-03_155340_951.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-03_160837_734.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-03_162814_631.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-04_141829_291.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-04_144546_209.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-04_150436_249.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-04_152541_562.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-04_154758_285.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-04_160840_013.avi:
+    crop: 126, 638, 0, 477
+  C/content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-05_150135_066.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-05_151836_476.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-05_153342_448.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-05_160318_546.avi:
+    crop: 126, 638, 0, 477
+  /content/drive/My Drive/Habituation-Filip-2022-08-22/videos/2022-08-05_161928_065.avi:
+    crop: 126, 638, 0, 477
+bodyparts:
+- front_left_leg
+- front_right_leg
+- rear_left_leg
+- rear_right_leg
+- cerci
+- head
+- left_led
+- right_led
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 7
+
+    # Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - objectA
+  - bodypart3
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 5
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 126
+x2: 638
+y1: 0
+y2: 477
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

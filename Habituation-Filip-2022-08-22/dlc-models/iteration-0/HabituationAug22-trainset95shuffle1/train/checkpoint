@@ -1,0 +1,4 @@
+model_checkpoint_path: "/content/drive/My Drive/Habituation-Filip-2022-08-22/dlc-models/iteration-0/HabituationAug22-trainset95shuffle1/train/snapshot-15000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Habituation-Filip-2022-08-22/dlc-models/iteration-0/HabituationAug22-trainset95shuffle1/train/snapshot-6000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Habituation-Filip-2022-08-22/dlc-models/iteration-0/HabituationAug22-trainset95shuffle1/train/snapshot-12000"
+all_model_checkpoint_paths: "/content/drive/My Drive/Habituation-Filip-2022-08-22/dlc-models/iteration-0/HabituationAug22-trainset95shuffle1/train/snapshot-15000"
